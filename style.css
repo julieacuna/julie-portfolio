@@ -1,0 +1,191 @@
+/* Julie Acuna Project 2 CSS */
+
+body {
+    background-color: #f8f1ec;
+    color: #3d302b;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#wrapper {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fffaf7;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(80, 50, 40, 0.15);
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#header img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+nav {
+    background-color: #6f4e37;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 8px;
+}
+
+nav a {
+    color: #fffaf7;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #d8b7a0;
+    color: #3d302b;
+}
+
+main {
+    padding: 10px 25px;
+}
+
+h1 {
+    color: #5b3927;
+    text-align: center;
+    font-size: 2.2em;
+    border-bottom: 2px solid #d8b7a0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #7b4f3a;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #8a5a44;
+}
+
+p {
+    font-size: 1.05em;
+    margin-bottom: 18px;
+}
+
+a {
+    color: #8a4f39;
+}
+
+a:hover {
+    color: #b06f53;
+}
+
+.profile-photo {
+    width: 280px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+    border: 4px solid #d8b7a0;
+}
+
+.content-photo {
+    width: 320px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+    border: 4px solid #d8b7a0;
+}
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #6f4e37;
+    font-size: 0.95em;
+}
+
+blockquote {
+    background-color: #f0ded2;
+    border-left: 6px solid #8a5a44;
+    padding: 15px;
+    font-style: italic;
+    margin: 25px;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    background-color: #f0ded2;
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+}
+
+.skills-list,
+.contact-list {
+    background-color: #f0ded2;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+ol {
+    background-color: #f0ded2;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #fffaf7;
+}
+
+th {
+    background-color: #6f4e37;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #d8b7a0;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f1ec;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #6f4e37;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
